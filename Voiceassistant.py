@@ -310,5 +310,5 @@ while(1):
     x=False
     voice_data = record_audio("Recording") # get the voice input
     print("Done")
-    print("Q:", voice_data)
+    print("Query:", voice_data)
     respond(voice_data) # respond
